@@ -1,3 +1,5 @@
+\version "2.24.4"
+
 startUnremovableSection = \set Staff.keepAliveInterfaces =
     #'(rhythmic-grob-interface
     rest-interface

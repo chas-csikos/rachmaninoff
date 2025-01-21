@@ -1,3 +1,5 @@
+\version "2.24.4"
+
 \new Lyrics \lyricsto Vocal {
   \override LyricText.font-name = "Garamond Premier Pro"
   "В ми" -- ре нет ни -- че -- го 

@@ -1,3 +1,5 @@
+\version "2.24.4"
+
 \paper {
   #(define fonts
     (set-global-fonts

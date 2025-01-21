@@ -7,7 +7,7 @@
 
 \paper {
   %#(set-paper-size "letter")
-	page-count = #5
+  page-count = #5
   min-systems-per-page = #3
 }
 
@@ -37,7 +37,7 @@
 
 \score {
   <<
-		\new Staff = "Vox" \with { \consists "Ambitus_engraver" } <<
+    \new Staff = "Vox" \with { \consists "Ambitus_engraver" } <<
       \new Voice = "Vocal" \vox
       \include "lyrics.ily"
     >>
@@ -56,7 +56,7 @@
         \new Voice \lowerThree
       >>
     >>
-	>>
+  >>
   \layout {
     \accidentalStyle piano
     \override Script.padding = #0.5

@@ -6,8 +6,8 @@
 \include "piano.ily"
 
 \paper {
-	page-count = #1
-	systems-per-page = #8
+  page-count = #1
+  systems-per-page = #8
 }
 
 \layout {
@@ -16,8 +16,8 @@
 }
 
 \header {
-	title = \markup {
-		\override #'(font-features . ("smcp"))
+  title = \markup {
+    \override #'(font-features . ("smcp"))
     "Сон"
   }
   subtitle = "Dreams"
@@ -41,10 +41,10 @@
 }
 
 \score {
-	<<
-		\new Staff = "Vox" \with { \consists "Ambitus_engraver" } <<
+  <<
+    \new Staff = "Vox" \with { \consists "Ambitus_engraver" } <<
       \new Voice = "Vocal" \vox
       \include "lyrics.ily"
     >>
-	>>
+  >>
 }
